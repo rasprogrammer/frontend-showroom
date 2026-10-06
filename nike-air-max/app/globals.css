@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-sidebar: #d9d9d9;
+  --color-button: #d9d9d9;
+  --color-accent: #ff6a1a;
+  --color-ink: #000000;
+  --color-paper: #ffffff;
+  --color-circle: rgb(255 255 255 / 0.15);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+.hero-bg {
+  background:
+    radial-gradient(ellipse 60% 45% at 60% 100%, rgb(255 255 255 / 0.14), transparent 70%),
+    linear-gradient(180deg, #000 0%, #000 55%, #3a3a3a 100%);
+}
